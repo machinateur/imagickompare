@@ -1,0 +1,30 @@
+{
+  "name": "machinateur/imagickompare",
+  "description": "A little PHP function that can compare PDFs and images using the Imagick PHP extension.",
+  "keywords": [
+    "compare",
+    "pdf",
+    "png",
+    "imagick",
+    "image-magick"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "lib_imagick.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "machinateur",
+      "email": "hello@machinateur.dev",
+      "homepage": "https://machinateur.dev"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4",
+    "ext-imagick": "*"
+  }
+}
