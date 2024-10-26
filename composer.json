@@ -10,11 +10,6 @@
   ],
   "type": "library",
   "license": "MIT",
-  "autoload": {
-    "files": [
-      "lib_imagick.php"
-    ]
-  },
   "authors": [
     {
       "name": "machinateur",
@@ -22,6 +17,11 @@
       "homepage": "https://machinateur.dev"
     }
   ],
+  "autoload": {
+    "files": [
+      "lib_imagick.php"
+    ]
+  },
   "minimum-stability": "stable",
   "require": {
     "php": ">=7.4",
