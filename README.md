@@ -30,6 +30,13 @@ $diffPercentage = \compare_with_imagick('/path/to/control-file', '/path/to/compa
 $diffPercentage = \compare_with_imagick('/path/to/control-file', '/path/to/compare-file', fh: $fh = \fopen('php://temp'));
 ```
 
+## Tests
+
+There are no tests for this library as of now.
+
+I have used it in two of my projects ([the-printe](https://github.com/machinateur/the-printer), [php-qpdf-ffi](https://github.com/machinateur/php-qpdf-ffi))
+ to assess PDF file differences in their tests.
+
 ## License
 
 It's MIT.
